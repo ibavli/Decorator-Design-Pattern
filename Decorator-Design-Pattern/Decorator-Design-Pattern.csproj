@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreateDecorator\LoggingRepositoryDecorator.cs" />
+    <Compile Include="ConcreateDecorator\SecurityRepositoryDecorator.cs" />
+    <Compile Include="ConcreateDecorator\SendRequestRepositoryDecorator.cs" />
+    <Compile Include="ConcreateDecorator\UpdateDataWareHouseRepositoryDecorator.cs" />
+    <Compile Include="ConcreateRepository\EFRepository.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="DecoratorRepository.cs" />
+    <Compile Include="Entities\Personel.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
